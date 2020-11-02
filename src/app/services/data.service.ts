@@ -14,58 +14,58 @@ export interface Message {
 export class DataService {
   public messages: Message[] = [
     {
-      fromName: 'Matt Chorsey',
-      subject: 'New event: Trip to Vegas',
+      fromName: 'Ruan Nunes',
+      subject: 'Novo curso de java basico',
       date: '9:32 AM',
       id: 0,
       read: false
     },
     {
-      fromName: 'Lauren Ruthford',
-      subject: 'Long time no chat',
+      fromName: 'Solivan',
+      subject: 'Novo curso de java intermediario',
       date: '6:12 AM',
       id: 1,
       read: false
     },
     {
-      fromName: 'Jordan Firth',
-      subject: 'Report Results',
+      fromName: 'Diane',
+      subject: 'Curso de Educação infantil',
       date: '4:55 AM',
       id: 2,
       read: false
     },
     {
-      fromName: 'Bill Thomas',
-      subject: 'The situation',
-      date: 'Yesterday',
+      fromName: 'Flavio',
+      subject: 'Curso de Ionic',
+      date: 'ontem',
       id: 3,
       read: false
     },
     {
       fromName: 'Joanne Pollan',
-      subject: 'Updated invitation: Swim lessons',
-      date: 'Yesterday',
+      subject: 'Aulas de Dança',
+      date: 'antes de ontem',
       id: 4,
       read: false
     },
     {
       fromName: 'Andrea Cornerston',
-      subject: 'Last minute ask',
-      date: 'Yesterday',
+      subject: 'Aulas de balé',
+      date: 'antes de ontem',
       id: 5,
       read: false
     },
     {
       fromName: 'Moe Chamont',
-      subject: 'Family Calendar - Version 1',
-      date: 'Last Week',
+      subject: 'Aulas de manicure',
+      date: 'semana passada',
       id: 6,
       read: false
     },
     {
       fromName: 'Kelly Richardson',
-      subject: 'Placeholder Headhots',
-      date: 'Last Week',
+      subject: 'Aulas de Musica',
+      date: 'semana passada',
       id: 7,
       read: false
     }
